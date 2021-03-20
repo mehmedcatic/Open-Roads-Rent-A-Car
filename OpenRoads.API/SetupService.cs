@@ -12,7 +12,6 @@ namespace OpenRoads.API
         public static void Init(openRoadsContext context)
         {
             context.Database.EnsureCreated();
-            //context.Database.Migrate();
         }
     }
 }

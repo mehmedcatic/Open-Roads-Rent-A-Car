@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YPw2oEfHQlIPXOpmYaZm9IcaOCihs16I2kshudKEUZlhK996YjnVqFV7hRsmArqyPLdsLegxNFlztiL32b0/nA==",
+  "dgSpecHash": "H2KGWWysAUuGoYlE9sZxS+B+wRgVaLTXcEW1BPV+y2MnTUpwR6gkAzyLZwOalucmOQAQd36dgzszKGZMXVlfzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.API\\OpenRoads.API.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\Mehmed\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.4\\microsoft.entityframeworkcore.design.5.0.4.nupkg.sha512",
     "C:\\Users\\Mehmed\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.4\\microsoft.entityframeworkcore.relational.5.0.4.nupkg.sha512",
     "C:\\Users\\Mehmed\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.4\\microsoft.entityframeworkcore.sqlserver.5.0.4.nupkg.sha512",
+    "C:\\Users\\Mehmed\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.4\\microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512",
     "C:\\Users\\Mehmed\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Mehmed\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Mehmed\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",

@@ -1,0 +1,33 @@
+version: '3'
+services:
+#mssql docker
+  openroads-sql:
+    image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+    restart: unless-stopped
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=QWElkj132!
+      - MSSQL_PID=Developer
+    ports:
+      - 1401:1433
+    networks:
+      - openroadsnet
+
+  openroads-api:
+    restart: unless-stopped
+    build:
+      context: .
+    environment:
+      - ConnectionStrings:cs1=Server=openroads-sql,1433;Database=IB160193;User=sa;Password=QWElkj132!;ConnectRetryCount=200
+    ports:
+      - 54045:80
+    networks:
+      - openroadsnet
+    links:
+      - openroads-sql
+    depends_on:
+      - openroads-sql
+
+networks:
+  openroadsnet:
+    driver: bridge 

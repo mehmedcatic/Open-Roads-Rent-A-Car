@@ -170,9 +170,6 @@ C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\bin\Debug\net
 C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.csprojAssemblyReference.cache
 C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.AssemblyInfoInputs.cache
 C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.AssemblyInfo.cs
-C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.csproj.CoreCompileInputs.cache
-C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.RazorTargetAssemblyInfo.cache
 C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.csproj.CopyComplete
 C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\staticwebassets\OpenRoads.API.StaticWebAssets.Manifest.cache
@@ -180,3 +177,6 @@ C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\net
 C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.dll
 C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.pdb
 C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.genruntimeconfig.cache
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.csproj.CoreCompileInputs.cache
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.API\obj\Debug\netcoreapp3.1\OpenRoads.API.MvcApplicationPartsAssemblyInfo.cache
