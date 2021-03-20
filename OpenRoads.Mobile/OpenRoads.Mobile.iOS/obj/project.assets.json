@@ -2038,11 +2038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile.iOS\\OpenRoads.Mobile.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile.iOS\\OpenRoads.Mobile.iOS.csproj",
       "projectName": "OpenRoads.Mobile.iOS",
-      "projectPath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile.iOS\\OpenRoads.Mobile.iOS.csproj",
+      "projectPath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile.iOS\\OpenRoads.Mobile.iOS.csproj",
       "packagesPath": "C:\\Users\\Mehmed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2063,8 +2063,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile\\OpenRoads.Mobile.csproj": {
-              "projectPath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile\\OpenRoads.Mobile.csproj"
+            "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile\\OpenRoads.Mobile.csproj": {
+              "projectPath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile\\OpenRoads.Mobile.csproj"
             }
           }
         }

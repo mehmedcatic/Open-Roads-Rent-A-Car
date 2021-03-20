@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Model\\OpenRoads.Model.csproj": {}
+    "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Model\\OpenRoads.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Model\\OpenRoads.Model.csproj": {
+    "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Model\\OpenRoads.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Model\\OpenRoads.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Model\\OpenRoads.Model.csproj",
         "projectName": "OpenRoads.Model",
-        "projectPath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Model\\OpenRoads.Model.csproj",
+        "projectPath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Model\\OpenRoads.Model.csproj",
         "packagesPath": "C:\\Users\\Mehmed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Model\\obj\\",
+        "outputPath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bPwBhlFM3GEek7eJfBWKbcybZ5QWueaqoCL1IQx7aIHHQpP3YIuh9cjXs+slp16PSWIYJYUO3/kMlskp6R0BSA==",
+  "dgSpecHash": "89dIv3dGQs6OibIQtpkf3LUG2wr32vutOpoD4DQ9xOWMXj0bzLH1qtYWizuJO28VjJsKhSJwg/Voxo98Ycu2Ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile.Android\\OpenRoads.Mobile.Android.csproj",
+  "projectFilePath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile.Android\\OpenRoads.Mobile.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mehmed\\.nuget\\packages\\flurl\\3.0.1\\flurl.3.0.1.nupkg.sha512",
     "C:\\Users\\Mehmed\\.nuget\\packages\\flurl.http\\3.0.1\\flurl.http.3.0.1.nupkg.sha512",

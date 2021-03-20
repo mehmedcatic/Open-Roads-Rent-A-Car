@@ -241,7 +241,7 @@ namespace OpenRoads.WinUi.Analytics
 
         private void btnExport_Click(object sender, EventArgs e)
         {
-            exportGridToPdf(dgvDisplay, "VehiclesReport" + DateTime.Now.ToString());
+            exportGridToPdf(dgvDisplay, "VehiclesReport" + DateTime.Now.Date.ToString("dd.MM.yyyy"));
         }
     }
 }

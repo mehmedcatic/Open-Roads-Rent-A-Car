@@ -7,3 +7,12 @@ C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Model\obj\Debug\netstandar
 C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Model\obj\Debug\netstandard2.0\OpenRoads.Model.dll
 C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Model\obj\Debug\netstandard2.0\OpenRoads.Model.pdb
 C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Model\obj\Debug\netstandard2.0\OpenRoads.Model.csproj.CoreCompileInputs.cache
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Model\bin\Debug\netstandard2.0\OpenRoads.Model.deps.json
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Model\bin\Debug\netstandard2.0\OpenRoads.Model.dll
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Model\bin\Debug\netstandard2.0\OpenRoads.Model.pdb
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Model\obj\Debug\netstandard2.0\OpenRoads.Model.csprojAssemblyReference.cache
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Model\obj\Debug\netstandard2.0\OpenRoads.Model.AssemblyInfoInputs.cache
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Model\obj\Debug\netstandard2.0\OpenRoads.Model.AssemblyInfo.cs
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Model\obj\Debug\netstandard2.0\OpenRoads.Model.csproj.CoreCompileInputs.cache
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Model\obj\Debug\netstandard2.0\OpenRoads.Model.dll
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Model\obj\Debug\netstandard2.0\OpenRoads.Model.pdb

@@ -9815,11 +9815,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile.UWP\\OpenRoads.Mobile.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile.UWP\\OpenRoads.Mobile.UWP.csproj",
       "projectName": "OpenRoads.Mobile.UWP",
-      "projectPath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile.UWP\\OpenRoads.Mobile.UWP.csproj",
+      "projectPath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile.UWP\\OpenRoads.Mobile.UWP.csproj",
       "packagesPath": "C:\\Users\\Mehmed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9841,8 +9841,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile\\OpenRoads.Mobile.csproj": {
-              "projectPath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Mobile\\OpenRoads.Mobile\\OpenRoads.Mobile.csproj"
+            "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile\\OpenRoads.Mobile.csproj": {
+              "projectPath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Mobile\\OpenRoads.Mobile\\OpenRoads.Mobile.csproj"
             }
           }
         }

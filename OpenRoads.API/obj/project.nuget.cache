@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ISnLuCWkq1kZ0msJRkRJNwL7SDb8BkApWtwIKLULPzHefj07dH4+4p7cKMZmQKj70jUvORtIYTOQ6/1BzZRZhw==",
+  "dgSpecHash": "YPw2oEfHQlIPXOpmYaZm9IcaOCihs16I2kshudKEUZlhK996YjnVqFV7hRsmArqyPLdsLegxNFlztiL32b0/nA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.API\\OpenRoads.API.csproj",
+  "projectFilePath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.API\\OpenRoads.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mehmed\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Mehmed\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

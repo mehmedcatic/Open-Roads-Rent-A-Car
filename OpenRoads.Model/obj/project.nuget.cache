@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tsKUVKcqm1XrG1JrZ2lvkFxDvnGvpPMTc2b1hIwlXwH9ikC0FIOXs/kzHzHWHCiRbt0AD4O6i3EECuYfvp/g+w==",
+  "dgSpecHash": "whhFjwTCpyHhyvVTlWo4RwVf8aDsduJOcEcWoqXysJVq854gnLaxucp5Plq1Ywl1mBUy/nLiKLop53JR89WnRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mehmed\\Desktop\\OpenRoads\\OpenRoads\\OpenRoads.Model\\OpenRoads.Model.csproj",
+  "projectFilePath": "C:\\Users\\Mehmed\\Desktop\\GitHub\\Open-Roads-Rent-A-Car\\OpenRoads.Model\\OpenRoads.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mehmed\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Mehmed\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
