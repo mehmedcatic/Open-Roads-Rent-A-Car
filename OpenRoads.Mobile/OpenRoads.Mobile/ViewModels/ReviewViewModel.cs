@@ -175,7 +175,7 @@ namespace OpenRoads.Mobile.ViewModels
                 if (x.ReservationId == _reservationId)
                 {
                     ratingExists = true;
-                    ReservationGradeModel = x.RatingId.ToString();
+                    ReservationGradeModel = x.RatingString;
                     ReservationComment = x.Comment;
                     break;
                 }
