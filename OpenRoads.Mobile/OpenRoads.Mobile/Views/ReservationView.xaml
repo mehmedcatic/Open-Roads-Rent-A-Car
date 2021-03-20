@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:OpenRoads.Mobile.ViewModels;assembly=OpenRoads.Mobile"
+             xmlns:converters="clr-namespace:OpenRoads.Mobile.Converters;assembly=OpenRoads.Mobile"
+             mc:Ignorable="d"
+             x:Class="OpenRoads.Mobile.Views.ReservationView"
+             Title="Reservation page"
+             BackgroundColor="LightSteelBlue">
+    <ContentPage.BindingContext>
+        <viewModels:ReservationViewModel></viewModels:ReservationViewModel>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="imgConv"></converters:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+
+        <StackLayout Padding="10" HeightRequest="60" Orientation="Horizontal" BackgroundColor="DodgerBlue">
+            <ImageButton x:Name="backImage" HorizontalOptions="Start" VerticalOptions="Center" Clicked="BackImage_OnClicked"></ImageButton>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                <ImageButton x:Name="userImg" VerticalOptions="Center" Clicked="UserImg_OnClicked"></ImageButton>
+                <Button x:Name="SignOutBtn"   VerticalOptions="Center"  Text="Sign out" BackgroundColor="White" 
+                    TextColor="CornflowerBlue" Clicked="SignOutBtn_OnClicked" CornerRadius="3"></Button>
+            </StackLayout>
+        </StackLayout>
+
+        <ScrollView>
+
+            <StackLayout Padding="20">
+                <Label x:Name="CaptionLabel" FontSize="20" Text="This is a reservation form. Please fill in all fields!" TextColor="White"
+                       HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"></Label>
+
+                <Image x:Name="VehicleImage" Source="{Binding VehiclePicture, Converter={StaticResource imgConv}}" WidthRequest="400" 
+                       HorizontalOptions="Center" VerticalOptions="Start"></Image>
+
+                <Label Text="Vehicle full name:" TextColor="White"></Label>
+                <Entry IsReadOnly="True" Text="{Binding VehicleName}"></Entry>
+
+                <Label Text="Reservation start date:" TextColor="White"></Label>
+                <DatePicker Date="{Binding _startDate}" IsEnabled="False" BackgroundColor="White"></DatePicker>
+
+                <Label Text="Reservation end date:" TextColor="White"></Label>
+                <DatePicker Date="{Binding _endDate}" IsEnabled="False" BackgroundColor="White"></DatePicker>
+
+                <Label Text="Vehicle daily rental price:" TextColor="White"></Label>
+                <Entry IsReadOnly="True" Text="{Binding DailyPrice}"></Entry>
+
+                <Label Text="Vehicle horse power:" TextColor="White"></Label>
+                <Entry IsReadOnly="True" Text="{Binding HorsePower}"></Entry>
+
+                <Label  Text="Select insurance type:" TextColor="White"></Label>
+                <Picker x:Name="InsurancePicker" ItemsSource="{Binding InsuranceList}" SelectedItem="{Binding SelectedInsuranceType}" 
+                        ItemDisplayBinding="{Binding Name}" SelectedIndexChanged="Picker_OnSelectedIndexChanged"></Picker>
+
+                <Label Text="If you have any additional information or questions, please type it below" TextColor="White"></Label>
+                <Entry Text="{Binding AdditionalInfo}"></Entry>
+
+
+
+                <!--//SRediti prikaz-->
+                <StackLayout BackgroundColor="White" Padding="15">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Vehicle rental costs:" HorizontalOptions="Start"></Label>
+                        <Entry Text="{Binding VehicleRentalPrice}" HorizontalOptions="EndAndExpand" IsReadOnly="True"></Entry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Insurance costs:" HorizontalOptions="Start"></Label>
+                        <Entry Text="{Binding InsurancePrice}" HorizontalOptions="EndAndExpand" IsReadOnly="True"></Entry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Subtotal:" HorizontalOptions="Start"></Label>
+                        <Entry Text="{Binding TotalPrice}" HorizontalOptions="EndAndExpand" IsReadOnly="True"></Entry>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout Padding="15" Margin="10" BackgroundColor="White">
+
+                    <Label Text="Please select a payment method" FontSize="16" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"></Label>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="In person - on pickup" HorizontalOptions="Start"></Label>
+                        <CheckBox x:Name="inPersonCB" IsChecked="False" HorizontalOptions="EndAndExpand"></CheckBox>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Credit Card" HorizontalOptions="Start"></Label>
+                        <CheckBox x:Name="creditCardCB" IsChecked="False" CheckedChanged="CreditCardCB_OnCheckedChanged" HorizontalOptions="EndAndExpand"></CheckBox>
+                    </StackLayout>
+
+                    <StackLayout x:Name="stackLayoutForCC" IsVisible="False" Padding="15" Margin="10">
+
+                        <StackLayout>
+                            <Entry x:Name="CCNumberEntry" Text="{Binding CreditCardNumber}" Keyboard="Numeric" Placeholder="Enter your credit card number"
+                                   ></Entry>
+                            <StackLayout Orientation="Horizontal">
+                                <Entry x:Name="ExpiryYearEntry" Text="{Binding ExpiryYear}" Keyboard="Numeric" 
+                                       Placeholder="Year" MaxLength="2"></Entry>
+                                <Entry x:Name="ExpiryMonthEntry" Text="{Binding ExpiryMonth}" Keyboard="Numeric" Placeholder="Month" 
+                                       MaxLength="2"></Entry>
+                                <Entry x:Name="CVCEntry" Text="{Binding CVC}" Keyboard="Numeric" Placeholder="CVC" 
+                                       MaxLength="4"></Entry>
+                            </StackLayout>
+                        </StackLayout>
+
+                    </StackLayout>
+                </StackLayout>
+
+
+                <Button Text="SUBMIT RESERVATION" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="FillAndExpand" 
+                        Padding="8" Margin="5" CornerRadius="3" Clicked="Button_OnClicked"></Button>
+
+            </StackLayout>
+
+
+
+
+        </ScrollView>
+
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,34 @@
+[
+  {
+    "vehicleCategoryId": 1,
+    "name": "Saloon"
+  },
+  {
+    "vehicleCategoryId": 2,
+    "name": "Cabriolet"
+  },
+  {
+    "vehicleCategoryId": 3,
+    "name": "Estate"
+  },
+  {
+    "vehicleCategoryId": 4,
+    "name": "Sports car"
+  },
+  {
+    "vehicleCategoryId": 5,
+    "name": "SUV"
+  },
+  {
+    "vehicleCategoryId": 6,
+    "name": "Small car"
+  },
+  {
+    "vehicleCategoryId": 7,
+    "name": "Van"
+  },
+  {
+    "vehicleCategoryId": 8,
+    "name": "Other"
+  }
+]

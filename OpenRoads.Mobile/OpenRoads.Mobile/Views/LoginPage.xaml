@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:OpenRoads.Mobile.ViewModels;assembly=OpenRoads.Mobile"
+             mc:Ignorable="d"
+             x:Class="OpenRoads.Mobile.Views.LoginPage"
+             Padding="20"
+             BackgroundColor="LightSteelBlue">
+    <ContentPage.BindingContext>
+        <viewModels:LoginViewModel></viewModels:LoginViewModel>
+    </ContentPage.BindingContext>
+
+        <StackLayout>
+
+            <StackLayout HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="CenterAndExpand" Spacing="10">
+
+                <Label  Text="Username:" TextColor="White"></Label>
+                <Entry x:Name="Username" Text="{Binding Username}" TextColor="CornflowerBlue"></Entry>
+
+                <Label  Text="Password:" TextColor="White"></Label>
+                <Entry Text="{Binding Password}" IsPassword="True" TextColor="CornflowerBlue"></Entry>
+
+                <Button Command="{Binding LoginCommand}"  HorizontalOptions="FillAndExpand" Text="Login" CornerRadius="3"
+                        BackgroundColor="CornflowerBlue" TextColor="White"></Button>
+
+                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="True"></ActivityIndicator>
+            </StackLayout>
+
+            <Button Text="Back" BackgroundColor="White" TextColor="CornflowerBlue" HorizontalOptions="End" 
+                    CornerRadius="3" Clicked="Button_OnClicked"></Button>
+
+        </StackLayout>
+</ContentPage>

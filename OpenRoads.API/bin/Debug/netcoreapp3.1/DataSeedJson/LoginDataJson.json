@@ -1,0 +1,80 @@
+[
+  {
+    "loginDataId": 1,
+    "username": "clientMobile",
+    "passwordSalt": "Ur6B1Q1uM5JSTszlBXGpcg==",
+    "passwordHash": "UWjSlbiQrtYNuqmfyYcT2ObIZOY="
+  },
+  {
+    "loginDataId": 2,
+    "username": "janesw",
+    "passwordSalt": "DZRIj8Ss99/HHwOW5y674g==",
+    "passwordHash": "kqaa3jGWq3RKK6tU10MurUvZ8Do="
+  },
+  {
+    "loginDataId": 3,
+    "username": "admin",
+    "passwordSalt": null,
+    "passwordHash": null
+  },
+  {
+    "loginDataId": 4,
+    "username": "test",
+    "passwordSalt": "xmFk9BdViqF/T2Sh0cIiQg==",
+    "passwordHash": "PH0iqjplSB57cHlkEx3eONgJ0lM="
+  },
+  {
+    "loginDataId": 5,
+    "username": "dfadaw",
+    "passwordSalt": "47OXk2SzCvqct5XJ6SnGnQ==",
+    "passwordHash": "kgIsUINjRhrh03hK4kq0k98WZho="
+  },
+  {
+    "loginDataId": 6,
+    "username": "adminDesktop",
+    "passwordSalt": "oi/E6JhBnRrCpakAYr2ZXA==",
+    "passwordHash": "5CR1B9vb32M74jAJgXFdTiJZ2EA="
+  },
+  {
+    "loginDataId": 7,
+    "username": "desktop",
+    "passwordSalt": "nAvZ2bNHeBgzvF2Zww7h1g==",
+    "passwordHash": "HjP47YyLIJMXtpGhSGX8GJYNZcM="
+  },
+  {
+    "loginDataId": 8,
+    "username": "branchEmployeeDesktop",
+    "passwordSalt": "e3ax531fwfGe/i5adyBE+g==",
+    "passwordHash": "3dCMaQgnpPVFSSdAp0PZXdsVjRs="
+  },
+  {
+    "loginDataId": 9,
+    "username": "afjkdka",
+    "passwordSalt": "CHzWIPtB+tGo602IBVefeg==",
+    "passwordHash": "Hn9JXxo6N9QIclZJoltWIwn1T6I="
+  },
+  {
+    "loginDataId": 1008,
+    "username": "imanewclient",
+    "passwordSalt": "5XRzS8bgvokqB3SneRcU3Q==",
+    "passwordHash": "lSp+lKpRKFXuqPx9XfmEKt4YYok="
+  },
+  {
+    "loginDataId": 1009,
+    "username": "jksaaoeop",
+    "passwordSalt": "tE/MwZ9IDbOgE/3AdBBzIQ==",
+    "passwordHash": "IIlf/2UAnfopCyPGQNwv8V/WV98="
+  },
+  {
+    "loginDataId": 1010,
+    "username": "testagain",
+    "passwordSalt": "WekyfdjC/cuG6xm2zJ9VhQ==",
+    "passwordHash": "L5b+HmoTp8hqKHiP7WQ3P9mFdOQ="
+  },
+  {
+    "loginDataId": 1011,
+    "username": "thisnew",
+    "passwordSalt": "Q+PgmElOZQKbq741mywalA==",
+    "passwordHash": "iFetv32PU2IKa5adZSrIosS3+wo="
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "ratingId": 1,
+    "ratingInt": 5,
+    "ratingString": "Five",
+    "creationDate": "2021-02-08T00:00:00",
+    "comment": "Excellent service and vehicle",
+    "clientId": 1,
+    "vehicleId": 1,
+    "reservationId": 1
+  },
+  {
+    "ratingId": 2,
+    "ratingInt": 4,
+    "ratingString": "Four",
+    "creationDate": "2021-02-10T00:00:00",
+    "comment": "Everything went well but the car wasn't what I was hoping for",
+    "clientId": 2,
+    "vehicleId": 2,
+    "reservationId": 2
+  },
+  {
+    "ratingId": 3,
+    "ratingInt": 5,
+    "ratingString": "5",
+    "creationDate": "2021-03-15T14:54:28.7996154",
+    "comment": "Everything went extremely well!",
+    "clientId": 1,
+    "vehicleId": 1,
+    "reservationId": 1
+  },
+  {
+    "ratingId": 4,
+    "ratingInt": 4,
+    "ratingString": "4",
+    "creationDate": "2021-03-15T15:38:46.9095168",
+    "comment": "Loved the car and the customer support!",
+    "clientId": 1,
+    "vehicleId": 1006,
+    "reservationId": 4
+  },
+  {
+    "ratingId": 5,
+    "ratingInt": 5,
+    "ratingString": "5",
+    "creationDate": "2021-03-15T16:01:37.2471281",
+    "comment": "Excellent",
+    "clientId": 1,
+    "vehicleId": 1,
+    "reservationId": 3
+  },
+  {
+    "ratingId": 6,
+    "ratingInt": 5,
+    "ratingString": "5",
+    "creationDate": "2021-03-18T19:03:15.30429",
+    "comment": "plxpl",
+    "clientId": 1,
+    "vehicleId": 3,
+    "reservationId": 6
+  }
+]

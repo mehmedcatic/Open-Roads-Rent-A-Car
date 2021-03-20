@@ -1,0 +1,132 @@
+[
+  {
+    "vehicleModelId": 1,
+    "name": "Passat",
+    "vehicleManufacturerId": 34
+  },
+  {
+    "vehicleModelId": 2,
+    "name": "Golf",
+    "vehicleManufacturerId": 34
+  },
+  {
+    "vehicleModelId": 3,
+    "name": "S-Class",
+    "vehicleManufacturerId": 21
+  },
+  {
+    "vehicleModelId": 4,
+    "name": "A3",
+    "vehicleManufacturerId": 1
+  },
+  {
+    "vehicleModelId": 5,
+    "name": "A5",
+    "vehicleManufacturerId": 1
+  },
+  {
+    "vehicleModelId": 6,
+    "name": "Q7",
+    "vehicleManufacturerId": 1
+  },
+  {
+    "vehicleModelId": 7,
+    "name": "7 Series",
+    "vehicleManufacturerId": 3
+  },
+  {
+    "vehicleModelId": 8,
+    "name": "Aveo",
+    "vehicleManufacturerId": 4
+  },
+  {
+    "vehicleModelId": 9,
+    "name": "C3",
+    "vehicleManufacturerId": 6
+  },
+  {
+    "vehicleModelId": 10,
+    "name": "Bravo",
+    "vehicleManufacturerId": 7
+  },
+  {
+    "vehicleModelId": 11,
+    "name": "Escort",
+    "vehicleManufacturerId": 9
+  },
+  {
+    "vehicleModelId": 12,
+    "name": "Focus",
+    "vehicleManufacturerId": 9
+  },
+  {
+    "vehicleModelId": 13,
+    "name": "i30",
+    "vehicleManufacturerId": 11
+  },
+  {
+    "vehicleModelId": 14,
+    "name": "Cherokee",
+    "vehicleManufacturerId": 14
+  },
+  {
+    "vehicleModelId": 15,
+    "name": "Ceed",
+    "vehicleManufacturerId": 15
+  },
+  {
+    "vehicleModelId": 16,
+    "name": "Sport",
+    "vehicleManufacturerId": 17
+  },
+  {
+    "vehicleModelId": 17,
+    "name": "Cooper",
+    "vehicleManufacturerId": 22
+  },
+  {
+    "vehicleModelId": 18,
+    "name": "Vivaro",
+    "vehicleManufacturerId": 25
+  },
+  {
+    "vehicleModelId": 19,
+    "name": "508",
+    "vehicleManufacturerId": 26
+  },
+  {
+    "vehicleModelId": 20,
+    "name": "3008",
+    "vehicleManufacturerId": 26
+  },
+  {
+    "vehicleModelId": 21,
+    "name": "Octavia",
+    "vehicleManufacturerId": 29
+  },
+  {
+    "vehicleModelId": 22,
+    "name": "Fabia",
+    "vehicleManufacturerId": 29
+  },
+  {
+    "vehicleModelId": 23,
+    "name": "Model S",
+    "vehicleManufacturerId": 32
+  },
+  {
+    "vehicleModelId": 24,
+    "name": "Transit",
+    "vehicleManufacturerId": 9
+  },
+  {
+    "vehicleModelId": 25,
+    "name": "5 Series",
+    "vehicleManufacturerId": 3
+  },
+  {
+    "vehicleModelId": 26,
+    "name": "C-Class",
+    "vehicleManufacturerId": 21
+  }
+]

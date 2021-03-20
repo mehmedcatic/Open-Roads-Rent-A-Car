@@ -1,0 +1,178 @@
+[
+  {
+    "countryId": 1,
+    "name": "Russia"
+  },
+  {
+    "countryId": 2,
+    "name": "Germany"
+  },
+  {
+    "countryId": 3,
+    "name": "France"
+  },
+  {
+    "countryId": 4,
+    "name": "United Kingdom"
+  },
+  {
+    "countryId": 5,
+    "name": "Italy"
+  },
+  {
+    "countryId": 6,
+    "name": "Spain"
+  },
+  {
+    "countryId": 7,
+    "name": "Ukraine"
+  },
+  {
+    "countryId": 8,
+    "name": "Poland"
+  },
+  {
+    "countryId": 9,
+    "name": "Romania"
+  },
+  {
+    "countryId": 10,
+    "name": "Netherlands"
+  },
+  {
+    "countryId": 11,
+    "name": "Belgium"
+  },
+  {
+    "countryId": 12,
+    "name": "Czech Republic"
+  },
+  {
+    "countryId": 13,
+    "name": "Greece"
+  },
+  {
+    "countryId": 14,
+    "name": "Portugal"
+  },
+  {
+    "countryId": 15,
+    "name": "Sweden"
+  },
+  {
+    "countryId": 16,
+    "name": "Hungary"
+  },
+  {
+    "countryId": 17,
+    "name": "Belarus"
+  },
+  {
+    "countryId": 18,
+    "name": "Austria"
+  },
+  {
+    "countryId": 19,
+    "name": "Serbia"
+  },
+  {
+    "countryId": 20,
+    "name": "Switzerland"
+  },
+  {
+    "countryId": 21,
+    "name": "Bulgaria"
+  },
+  {
+    "countryId": 22,
+    "name": "Denmark"
+  },
+  {
+    "countryId": 23,
+    "name": "Finland"
+  },
+  {
+    "countryId": 24,
+    "name": "Slovakia"
+  },
+  {
+    "countryId": 25,
+    "name": "Norway"
+  },
+  {
+    "countryId": 26,
+    "name": "Ireland"
+  },
+  {
+    "countryId": 27,
+    "name": "Croatia"
+  },
+  {
+    "countryId": 28,
+    "name": "Moldova"
+  },
+  {
+    "countryId": 29,
+    "name": "Bosnia and Herzegovina"
+  },
+  {
+    "countryId": 30,
+    "name": "Albania"
+  },
+  {
+    "countryId": 31,
+    "name": "Lithuania"
+  },
+  {
+    "countryId": 32,
+    "name": "North Macedonia"
+  },
+  {
+    "countryId": 33,
+    "name": "Slovenia"
+  },
+  {
+    "countryId": 34,
+    "name": "Latvia"
+  },
+  {
+    "countryId": 35,
+    "name": "Estonia"
+  },
+  {
+    "countryId": 36,
+    "name": "Montenegro"
+  },
+  {
+    "countryId": 37,
+    "name": "Luxembourg"
+  },
+  {
+    "countryId": 38,
+    "name": "Malta"
+  },
+  {
+    "countryId": 39,
+    "name": "Iceland"
+  },
+  {
+    "countryId": 40,
+    "name": "Andorra"
+  },
+  {
+    "countryId": 41,
+    "name": "Monaco"
+  },
+  {
+    "countryId": 42,
+    "name": "Liechtenstein"
+  },
+  {
+    "countryId": 43,
+    "name": "San Marino"
+  },
+  {
+    "countryId": 44,
+    "name": "Zimbabwe"
+  }
+]

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage  xmlns:local="clr-namespace:OpenRoads;assembly=OpenRoads.Mobile"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:views="clr-namespace:OpenRoads.Mobile.Views;assembly=OpenRoads.Mobile"
+             mc:Ignorable="d"
+             x:Class="OpenRoads.Mobile.Views.MyProfileTabbedView"
+             Title="My profile settings"
+             x:Name="TabbedPage"
+             NavigationPage.HasBackButton="False">
+
+    
+    <views:MyProfileView x:Name="MyProfile" Title="My profile"></views:MyProfileView>
+    <views:MyReservationsView x:Name="MyReservations" Title="My reservations"></views:MyReservationsView>
+    
+</TabbedPage>

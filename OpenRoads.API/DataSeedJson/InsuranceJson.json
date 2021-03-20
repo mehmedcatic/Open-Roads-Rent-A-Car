@@ -1,0 +1,17 @@
+[
+  {
+    "insuranceId": 1,
+    "name": "Basic",
+    "price": 0
+  },
+  {
+    "insuranceId": 2,
+    "name": "Economy",
+    "price": 49.99
+  },
+  {
+    "insuranceId": 3,
+    "name": "Premium",
+    "price": 99.99
+  }
+]

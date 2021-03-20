@@ -1,0 +1,150 @@
+[
+  {
+    "vehicleManufacturerId": 1,
+    "name": "Audi"
+  },
+  {
+    "vehicleManufacturerId": 2,
+    "name": "Alfa Romeo"
+  },
+  {
+    "vehicleManufacturerId": 3,
+    "name": "BMW"
+  },
+  {
+    "vehicleManufacturerId": 4,
+    "name": "Chevrolet"
+  },
+  {
+    "vehicleManufacturerId": 5,
+    "name": "Chrysler"
+  },
+  {
+    "vehicleManufacturerId": 6,
+    "name": "Citroen"
+  },
+  {
+    "vehicleManufacturerId": 7,
+    "name": "Fiat"
+  },
+  {
+    "vehicleManufacturerId": 8,
+    "name": "Ferrari"
+  },
+  {
+    "vehicleManufacturerId": 9,
+    "name": "Ford"
+  },
+  {
+    "vehicleManufacturerId": 10,
+    "name": "Honda"
+  },
+  {
+    "vehicleManufacturerId": 11,
+    "name": "Hyundai"
+  },
+  {
+    "vehicleManufacturerId": 12,
+    "name": "Infinity"
+  },
+  {
+    "vehicleManufacturerId": 13,
+    "name": "Jaguar"
+  },
+  {
+    "vehicleManufacturerId": 14,
+    "name": "Jeep"
+  },
+  {
+    "vehicleManufacturerId": 15,
+    "name": "Kia"
+  },
+  {
+    "vehicleManufacturerId": 16,
+    "name": "Lamborghini"
+  },
+  {
+    "vehicleManufacturerId": 17,
+    "name": "Land Rover"
+  },
+  {
+    "vehicleManufacturerId": 18,
+    "name": "Lexus"
+  },
+  {
+    "vehicleManufacturerId": 19,
+    "name": "Maserati"
+  },
+  {
+    "vehicleManufacturerId": 20,
+    "name": "Mazda"
+  },
+  {
+    "vehicleManufacturerId": 21,
+    "name": "Mercedes Benz"
+  },
+  {
+    "vehicleManufacturerId": 22,
+    "name": "Mini"
+  },
+  {
+    "vehicleManufacturerId": 23,
+    "name": "Mitsubishi"
+  },
+  {
+    "vehicleManufacturerId": 24,
+    "name": "Nissan"
+  },
+  {
+    "vehicleManufacturerId": 25,
+    "name": "Opel"
+  },
+  {
+    "vehicleManufacturerId": 26,
+    "name": "Peugeot"
+  },
+  {
+    "vehicleManufacturerId": 27,
+    "name": "Porsche"
+  },
+  {
+    "vehicleManufacturerId": 28,
+    "name": "Renault"
+  },
+  {
+    "vehicleManufacturerId": 29,
+    "name": "Skoda"
+  },
+  {
+    "vehicleManufacturerId": 30,
+    "name": "Smart"
+  },
+  {
+    "vehicleManufacturerId": 31,
+    "name": "Suzuki"
+  },
+  {
+    "vehicleManufacturerId": 32,
+    "name": "Tesla"
+  },
+  {
+    "vehicleManufacturerId": 33,
+    "name": "Toyota"
+  },
+  {
+    "vehicleManufacturerId": 34,
+    "name": "Volkswagen"
+  },
+  {
+    "vehicleManufacturerId": 35,
+    "name": "Volvo"
+  },
+  {
+    "vehicleManufacturerId": 36,
+    "name": "Dacia"
+  },
+  {
+    "vehicleManufacturerId": 37,
+    "name": "Seat"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "vehicleTypeId": 1,
+    "name": "Luxury"
+  },
+  {
+    "vehicleTypeId": 2,
+    "name": "Economy"
+  },
+  {
+    "vehicleTypeId": 3,
+    "name": "Budget"
+  }
+]

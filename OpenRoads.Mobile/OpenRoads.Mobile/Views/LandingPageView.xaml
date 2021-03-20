@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="OpenRoads.Mobile.Views.LandingPageView">
+
+    <AbsoluteLayout>
+        <Image x:Name="backgroundImage" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"></Image>
+
+        <Button x:Name="signIn" FontSize="Medium" Text="SIGN IN" BackgroundColor="LightSteelBlue" TextColor="White" 
+                AbsoluteLayout.LayoutBounds="0.5, 0.49, 0.5, 40" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"
+                CornerRadius="3" FontAttributes="Bold" Clicked="SignIn_OnClicked"></Button>
+        <Button x:Name="register" FontSize="Medium" Text="REGISTER" BackgroundColor="LightSteelBlue" TextColor="White"
+                AbsoluteLayout.LayoutBounds="0.5, 0.59, 0.5, 40" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"
+                CornerRadius="3" FontAttributes="Bold" Clicked="Register_OnClicked"></Button>
+    </AbsoluteLayout>
+</ContentPage>

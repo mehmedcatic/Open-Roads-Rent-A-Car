@@ -1,0 +1,10 @@
+[
+  {
+    "vehicleTransmissionTypeId": 1,
+    "name": "Manual"
+  },
+  {
+    "vehicleTransmissionTypeId": 2,
+    "name": "Automatic"
+  }
+]

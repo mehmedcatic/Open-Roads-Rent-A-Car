@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:OpenRoads.Mobile.ViewModels;assembly=OpenRoads.Mobile"
+             xmlns:converters1="clr-namespace:OpenRoads.Mobile.Converters;assembly=OpenRoads.Mobile"
+             mc:Ignorable="d"
+             x:Class="OpenRoads.Mobile.Views.ReviewView"
+             Title="Reservation page"
+             BackgroundColor="LightSteelBlue">
+
+    <ContentPage.BindingContext>
+        <viewModels:ReviewViewModel></viewModels:ReviewViewModel>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters1:ImageConverter x:Key="imgConv"></converters1:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <StackLayout>
+
+        <StackLayout Padding="10" HeightRequest="60" Orientation="Horizontal" BackgroundColor="DodgerBlue">
+            <ImageButton x:Name="backImage" HorizontalOptions="Start" VerticalOptions="Center" Clicked="BackImage_OnClicked"></ImageButton>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                <ImageButton x:Name="userImg" VerticalOptions="Center" Clicked="UserImg_OnClicked"></ImageButton>
+                <Button x:Name="SignOutBtn"   VerticalOptions="Center"  Text="Sign out" BackgroundColor="White" 
+                        TextColor="CornflowerBlue" Clicked="SignOutBtn_OnClicked" CornerRadius="3"></Button>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Padding="20">
+            <Label x:Name="CaptionLabel" FontSize="18" Text="Reservation info" TextColor="White"
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"></Label>
+
+            <ListView ItemsSource="{Binding ReservationModelToDisplay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="8" Padding="10" Orientation="Horizontal" BackgroundColor="White">
+                                <StackLayout VerticalOptions="Start">
+                                    <Image Source="{Binding VehiclePicture, Converter={StaticResource imgConv}}" WidthRequest="250"></Image>
+                                </StackLayout>
+
+                                <StackLayout VerticalOptions="End">
+
+                                    <StackLayout Orientation="Horizontal" Padding="7">
+                                        <Label Text="Vehicle:" FontSize="13"></Label>
+                                        <Label Text="{Binding VehicleName}" 
+                                               LineBreakMode="NoWrap" 
+                                               Style="{DynamicResource ListItemTextStyle}" 
+                                               FontSize="13"/>
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" Padding="7">
+                                        <Label Text="Start date:" FontSize="13"></Label>
+                                        <Label Text="{Binding DateFrom}" 
+                                               LineBreakMode="NoWrap"
+                                               Style="{DynamicResource ListItemDetailTextStyle}"
+                                               FontSize="13" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" Padding="7">
+                                        <Label Text="End date:" FontSize="13"></Label>
+                                        <Label Text="{Binding DateTo}" 
+                                                LineBreakMode="NoWrap"
+                                                Style="{DynamicResource ListItemDetailTextStyle}"
+                                                FontSize="13" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" Padding="7">
+                                        <Label Text="Reservation price:" FontSize="13"></Label>
+                                        <Label Text="{Binding Price}" 
+                                               LineBreakMode="NoWrap"
+                                               Style="{DynamicResource ListItemDetailTextStyle}"
+                                               FontSize="13" />
+                                    </StackLayout>
+
+                                </StackLayout>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+
+        <StackLayout x:Name="FillTheDataReview" Padding="20" IsVisible="true">
+            <Label FontSize="18" Text="Please fill in review form!" TextColor="White"
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"></Label>
+
+            <Label  Text="Select review grade:" TextColor="White"></Label>
+            <Picker x:Name="ReviewPicker" ItemsSource="{Binding ReservationGradeList}" SelectedItem="{Binding SelectedReservationGrade}" 
+                    ItemDisplayBinding="{Binding Grade}"></Picker>
+
+            <Label Text="Please write a comment of your experience with OpenRoads agency:" TextColor="White"></Label>
+            <Entry x:Name="CommentEntry" Text="{Binding ReservationComment}"></Entry>
+
+            <Button x:Name="SubmitReviewBtn" Text="SUBMIT REVIEW" BackgroundColor="DodgerBlue" TextColor="White" HorizontalOptions="FillAndExpand" 
+                    Padding="8" Margin="5" CornerRadius="3" Clicked="SubmitReviewBtn_OnClicked"></Button>
+        </StackLayout>
+
+        <StackLayout x:Name="ShowTheDataReview" Padding="20" Margin="15" IsVisible="false" BackgroundColor="DodgerBlue">
+            <Label FontSize="18" Text="You already submited review for this reservation! Here it is:" TextColor="White"
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"></Label>
+
+            <Label  Text="Review grade:" TextColor="White"></Label>
+            <Entry Text="{Binding ReservationGradeModel}"></Entry>
+
+            <Label Text="Comment:" TextColor="White"></Label>
+            <Entry  Text="{Binding ReservationComment}"></Entry>
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

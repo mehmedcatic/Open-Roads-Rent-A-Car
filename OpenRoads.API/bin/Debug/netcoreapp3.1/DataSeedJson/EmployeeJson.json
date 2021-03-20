@@ -1,0 +1,47 @@
+[
+  {
+    "employeeId": 2,
+    "hireDate": "2021-02-10T01:37:30.5108147",
+    "employeeCode": "001tesz",
+    "jobDescription": "test desc",
+    "active": true,
+    "branchId": 1,
+    "personId": 4
+  },
+  {
+    "employeeId": 4,
+    "hireDate": "2021-02-24T22:42:42.2704502",
+    "employeeCode": "adminDesktop-001",
+    "jobDescription": "Test desc",
+    "active": true,
+    "branchId": 1,
+    "personId": 6
+  },
+  {
+    "employeeId": 5,
+    "hireDate": "2021-02-26T00:27:30.9340075",
+    "employeeCode": "939desktop",
+    "jobDescription": "test",
+    "active": true,
+    "branchId": 1,
+    "personId": 7
+  },
+  {
+    "employeeId": 6,
+    "hireDate": "2021-03-03T14:43:25.7767297",
+    "employeeCode": "branchEmp001",
+    "jobDescription": "Branch employee test",
+    "active": true,
+    "branchId": 1,
+    "personId": 8
+  },
+  {
+    "employeeId": 7,
+    "hireDate": "2021-03-03T15:19:23.4682476",
+    "employeeCode": "kjabjkfa",
+    "jobDescription": "jhsfjksk",
+    "active": true,
+    "branchId": 1,
+    "personId": 9
+  }
+]

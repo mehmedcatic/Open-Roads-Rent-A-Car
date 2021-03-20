@@ -1,0 +1,22 @@
+[
+  {
+    "vehicleFuelTypeId": 1,
+    "name": "Diesel"
+  },
+  {
+    "vehicleFuelTypeId": 2,
+    "name": "Petrol"
+  },
+  {
+    "vehicleFuelTypeId": 3,
+    "name": "Electric"
+  },
+  {
+    "vehicleFuelTypeId": 4,
+    "name": "Hybrid"
+  },
+  {
+    "vehicleFuelTypeId": 5,
+    "name": "Other"
+  }
+]

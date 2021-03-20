@@ -1,0 +1,15 @@
+[
+  {
+    "branchId": 1,
+    "fullName": "Branch Mostar",
+    "city": "Mostar",
+    "address": "TTT",
+    "zipCode": "88000",
+    "phoneNumber": "036-322-310",
+    "workingHoursFrom": 8,
+    "workingHoursTo": 18,
+    "description": "NA",
+    "active": true,
+    "countryId": 29
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "employeeRolesId": 1,
+    "name": "Admin",
+    "description": "Handles application performanse, availability and updates"
+  },
+  {
+    "employeeRolesId": 2,
+    "name": "Branch employee",
+    "description": "Handles user requests and reservations"
+  }
+]

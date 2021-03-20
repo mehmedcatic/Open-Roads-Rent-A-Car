@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:OpenRoads.Mobile.ViewModels;assembly=OpenRoads.Mobile"
+             mc:Ignorable="d"
+             x:Class="OpenRoads.Mobile.Views.RegisterView"
+             BackgroundColor="LightSteelBlue">
+    <ContentPage.BindingContext>
+        <viewModels:RegisterViewModel></viewModels:RegisterViewModel>
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label x:Name="CaptionLabel" FontSize="20" Text="This is a registration form. Please fill in all fields!" TextColor="White"
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"></Label>
+
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Spacing="10" Padding="8">
+
+                <Label  Text="First name:" TextColor="White"></Label>
+                <Entry x:Name="FirstName" Text="{Binding FirstName}" TextColor="CornflowerBlue"></Entry>
+
+                <Label  Text="Last name:" TextColor="White"></Label>
+                <Entry Text="{Binding LastName}" TextColor="CornflowerBlue"></Entry>
+
+                <Label  Text="Email:" TextColor="White"></Label>
+                <Entry Text="{Binding Email}" Keyboard="Email" TextColor="CornflowerBlue"></Entry>
+
+                <Label  Text="Username:" TextColor="White"></Label>
+                <Entry x:Name="Username" Text="{Binding Username}" TextColor="CornflowerBlue"></Entry>
+
+                <Label  Text="Password:" TextColor="White"></Label>
+                <Entry Text="{Binding Password}" IsPassword="True" TextColor="CornflowerBlue"></Entry>
+
+                <Label  Text="Phone number:" TextColor="White"></Label>
+                <Entry x:Name="PhoneNumber" Text="{Binding PhoneNumber}" TextColor="CornflowerBlue"></Entry>
+
+                <Label  Text="Date of birth:" TextColor="White"></Label>
+                <DatePicker x:Name="DoBDate" Date="{Binding DateOfBirth}" TextColor="White"></DatePicker>
+
+                <Label  Text="Address:" TextColor="White"></Label>
+                <Entry Text="{Binding Address}" TextColor="CornflowerBlue"></Entry>
+
+                <Label  Text="City:" TextColor="White"></Label>
+                <Entry x:Name="City" Text="{Binding City}" TextColor="CornflowerBlue"></Entry>
+
+                <Label  Text="Country:" TextColor="White"></Label>
+                <Picker ItemsSource="{Binding CountryList}" SelectedItem="{Binding SelectedCountryModel}" 
+                    ItemDisplayBinding="{Binding Name}"></Picker>
+
+
+                <Button x:Name="SubmitButton" Command="{Binding RegisterCommand}"  HorizontalOptions="FillAndExpand" Text="Submit" CornerRadius="3"
+                    BackgroundColor="CornflowerBlue" TextColor="White"></Button>
+
+                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="True"></ActivityIndicator>
+            </StackLayout>
+
+            <Button x:Name="BackButton" Text="Back" BackgroundColor="White" TextColor="CornflowerBlue" HorizontalOptions="End" 
+                CornerRadius="3" Clicked="BackButton_OnClicked"></Button>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,44 @@
+[
+  {
+    "employeeEmployeeRolesId": 1,
+    "changeDate": "2021-02-09T00:00:00",
+    "employeeId": 1,
+    "employeeRolesId": 1
+  },
+  {
+    "employeeEmployeeRolesId": 2,
+    "changeDate": "2021-02-10T23:20:13.1610367",
+    "employeeId": 2,
+    "employeeRolesId": 2
+  },
+  {
+    "employeeEmployeeRolesId": 3,
+    "changeDate": "2021-02-17T13:40:42.2007305",
+    "employeeId": 3,
+    "employeeRolesId": 2
+  },
+  {
+    "employeeEmployeeRolesId": 4,
+    "changeDate": "2021-02-24T22:46:31.2155312",
+    "employeeId": 4,
+    "employeeRolesId": 1
+  },
+  {
+    "employeeEmployeeRolesId": 5,
+    "changeDate": "2021-02-26T00:28:33.2117944",
+    "employeeId": 5,
+    "employeeRolesId": 1
+  },
+  {
+    "employeeEmployeeRolesId": 6,
+    "changeDate": "2021-03-03T15:20:21.7932596",
+    "employeeId": 6,
+    "employeeRolesId": 2
+  },
+  {
+    "employeeEmployeeRolesId": 7,
+    "changeDate": "2021-03-03T15:19:50.7952377",
+    "employeeId": 7,
+    "employeeRolesId": 2
+  }
+]

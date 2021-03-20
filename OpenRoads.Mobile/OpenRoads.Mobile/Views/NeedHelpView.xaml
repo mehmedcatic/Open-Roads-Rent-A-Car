@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:OpenRoads.Mobile.ViewModels;assembly=OpenRoads.Mobile"
+             xmlns:converters="clr-namespace:OpenRoads.Mobile.Converters;assembly=OpenRoads.Mobile"
+             mc:Ignorable="d"
+             x:Class="OpenRoads.Mobile.Views.NeedHelpView"
+             BackgroundColor="LightSteelBlue">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="imgConv"></converters:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+
+        <StackLayout Padding="10" HeightRequest="60" Orientation="Horizontal" BackgroundColor="DodgerBlue">
+            <ImageButton x:Name="backImage" HorizontalOptions="Start" VerticalOptions="Center" Clicked="BackImage_OnClicked"></ImageButton>
+            <ImageButton x:Name="userImg" HorizontalOptions="EndAndExpand" VerticalOptions="Center" Clicked="UserImg_OnClicked"></ImageButton>
+            <Button x:Name="SignOutBtn" HorizontalOptions="End" VerticalOptions="Center" Text="Sign out" BackgroundColor="White" 
+                    TextColor="CornflowerBlue" Clicked="SignOutBtn_OnClicked" CornerRadius="3"></Button>
+        </StackLayout>
+
+
+        <StackLayout Padding="20">
+            <Label Text="This is a help page. Please follow the steps written below!" TextColor="White" FontSize="20" HorizontalOptions="CenterAndExpand"
+                   ></Label>
+            <Image x:Name="LogoImg" HorizontalOptions="Center" VerticalOptions="StartAndExpand"></Image>
+
+            <StackLayout Orientation="Vertical">
+                <StackLayout Padding="10">
+                    <Label Text="Please write your question here:" FontSize="15" TextColor="White"></Label>
+                    <Entry x:Name="QuestionEntry" Text="{Binding QuestionEntry}"></Entry>
+                    <Button x:Name="SubmitQuestionBtn" Text="SUBMIT" CornerRadius="3" BackgroundColor="DodgerBlue" TextColor="White"
+                            Clicked="SubmitQuestionBtn_OnClicked"></Button>
+                </StackLayout>
+
+                <StackLayout Padding="10">
+                    <Label Text="Or contact our customer service clerk on this number: +38(7)33 333 333" FontSize="15" TextColor="White"></Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+    </StackLayout>
+
+
+</ContentPage>

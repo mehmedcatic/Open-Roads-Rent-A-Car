@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:OpenRoads.Mobile.ViewModels;assembly=OpenRoads.Mobile"
+             xmlns:converters="clr-namespace:OpenRoads.Mobile.Converters;assembly=OpenRoads.Mobile"
+             mc:Ignorable="d"
+             x:Class="OpenRoads.Mobile.Views.MyReservationsView"
+             Title="MyProfile"
+             BackgroundColor="LightSteelBlue">
+
+    <ContentPage.BindingContext>
+        <viewModels:MyReservationsViewModel></viewModels:MyReservationsViewModel>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="imgConv"></converters:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+
+        <StackLayout Padding="10" HeightRequest="60" Orientation="Horizontal" BackgroundColor="DodgerBlue">
+            <ImageButton x:Name="backImage" HorizontalOptions="Start" VerticalOptions="Center" Clicked="BackImage_OnClicked"></ImageButton>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                <ImageButton x:Name="userImg" VerticalOptions="Center" Clicked="UserImg_OnClicked"></ImageButton>
+                <Button x:Name="SignOutBtn"   VerticalOptions="Center"  Text="Sign out" BackgroundColor="White" 
+                        TextColor="CornflowerBlue" Clicked="SignOutBtn_OnClicked" CornerRadius="3"></Button>
+            </StackLayout>
+        </StackLayout>
+
+
+        <ScrollView>
+
+            <StackLayout Padding="20">
+                <Label x:Name="CaptionLabel" FontSize="20" FontAttributes="Bold" Text="MY RESERVATIONS" TextColor="White"
+                       HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"></Label>
+
+                <StackLayout Padding="10" Margin="5" BackgroundColor="CornflowerBlue">
+                    <Label FontSize="16" FontAttributes="Bold" Text="Active reservations" TextColor="White"
+                           HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"></Label>
+
+                    <ListView ItemsSource="{Binding ReservationActiveList}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Margin="8" Padding="10" Orientation="Horizontal" BackgroundColor="White">
+
+                                        <StackLayout VerticalOptions="Start">
+                                            <Image Source="{Binding VehiclePicture, Converter={StaticResource imgConv}}" WidthRequest="250"></Image>
+                                        </StackLayout>
+
+                                        <StackLayout VerticalOptions="End">
+
+                                            <StackLayout Orientation="Horizontal" Padding="7">
+                                                <Label Text="Vehicle:" FontSize="13" HorizontalOptions="Start"></Label>
+                                                <Label Text="{Binding VehicleName}"  VerticalOptions="EndAndExpand"
+                                               LineBreakMode="NoWrap" 
+                                               Style="{DynamicResource ListItemTextStyle}" 
+                                               FontSize="13"/>
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal" Padding="7">
+                                                <Label Text="Date from:" FontSize="13" HorizontalOptions="Start"></Label>
+                                                <Label Text="{Binding DateFrom}"  HorizontalOptions="EndAndExpand"
+                                               LineBreakMode="NoWrap"
+                                               Style="{DynamicResource ListItemDetailTextStyle}"
+                                               FontSize="13" />
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal" Padding="7">
+                                                <Label Text="Date to:" FontSize="13" HorizontalOptions="Start"></Label>
+                                                <Label Text="{Binding DateTo}" HorizontalOptions="EndAndExpand"
+                                                LineBreakMode="NoWrap"
+                                                Style="{DynamicResource ListItemDetailTextStyle}"
+                                                FontSize="13" />
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal" Padding="7">
+                                                <Label Text="Created at:" FontSize="13" HorizontalOptions="Start"></Label>
+                                                <Label Text="{Binding CreationDate}" HorizontalOptions="EndAndExpand"
+                                               LineBreakMode="NoWrap"
+                                               Style="{DynamicResource ListItemDetailTextStyle}"
+                                               FontSize="13" />
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal" Padding="7">
+                                                <Label Text="Price:" FontSize="13" HorizontalOptions="Start"></Label>
+                                                <Label Text="{Binding Price}" HorizontalOptions="EndAndExpand"
+                                                       LineBreakMode="NoWrap"
+                                                       Style="{DynamicResource ListItemDetailTextStyle}"
+                                                       FontSize="13" />
+                                            </StackLayout>
+
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </StackLayout>
+
+                <StackLayout Padding="10" Margin="5" BackgroundColor="LightSkyBlue">
+                    <Label FontSize="16" FontAttributes="Bold" Text="Finished reservations" TextColor="White"
+                           HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"></Label>
+
+                    <ListView ItemsSource="{Binding ReservationFinishedList}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Margin="8" Padding="10" Orientation="Horizontal" BackgroundColor="White">
+
+                                        <StackLayout VerticalOptions="Start">
+                                            <Image Source="{Binding VehiclePicture, Converter={StaticResource imgConv}}" WidthRequest="250"></Image>
+                                            <StackLayout Orientation="Vertical" Padding="7">
+                                                <Button x:Name="ReservationButton" Text="WRITE A REVIEW" Padding="5" BackgroundColor="Goldenrod" 
+                                                        CornerRadius="2" 
+                                                        TextColor="White" Clicked="ReservationButton_OnClicked" AutomationId="{Binding ReservationId}"></Button>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                        <StackLayout VerticalOptions="End">
+
+                                            <StackLayout Orientation="Horizontal" Padding="7">
+                                                <Label Text="Vehicle:" FontSize="13" HorizontalOptions="Start"></Label>
+                                                <Label Text="{Binding VehicleName}" HorizontalOptions="EndAndExpand"
+                                               LineBreakMode="NoWrap" 
+                                               Style="{DynamicResource ListItemTextStyle}" 
+                                               FontSize="13"/>
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal" Padding="7">
+                                                <Label Text="Date from:" FontSize="13" HorizontalOptions="Start"></Label>
+                                                <Label Text="{Binding DateFrom}" HorizontalOptions="EndAndExpand"
+                                               LineBreakMode="NoWrap"
+                                               Style="{DynamicResource ListItemDetailTextStyle}"
+                                               FontSize="13" />
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal" Padding="7">
+                                                <Label Text="Date to:" FontSize="13" HorizontalOptions="Start"></Label>
+                                                <Label Text="{Binding DateTo}" HorizontalOptions="EndAndExpand"
+                                                LineBreakMode="NoWrap"
+                                                Style="{DynamicResource ListItemDetailTextStyle}"
+                                                FontSize="13" />
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal" Padding="7">
+                                                <Label Text="Created at:" FontSize="13" HorizontalOptions="Start"></Label>
+                                                <Label Text="{Binding CreationDate}" HorizontalOptions="EndAndExpand"
+                                               LineBreakMode="NoWrap"
+                                               Style="{DynamicResource ListItemDetailTextStyle}"
+                                               FontSize="13" />
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal" Padding="7">
+                                                <Label Text="Price:" FontSize="13" HorizontalOptions="Start"></Label>
+                                                <Label Text="{Binding Price}" HorizontalOptions="EndAndExpand"
+                                                       LineBreakMode="NoWrap"
+                                                       Style="{DynamicResource ListItemDetailTextStyle}"
+                                                       FontSize="13" />
+                                            </StackLayout>
+
+                                        </StackLayout>
+
+
+
+                                    </StackLayout>
+
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </StackLayout>
+
+</ContentPage>
