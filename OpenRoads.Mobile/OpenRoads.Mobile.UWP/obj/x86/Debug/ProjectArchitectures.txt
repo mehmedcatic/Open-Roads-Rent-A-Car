@@ -1,1 +1,1 @@
-C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\OpenRoads.Mobile.UWP.csproj;x86
+C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\OpenRoads.Mobile.UWP.csproj;x86

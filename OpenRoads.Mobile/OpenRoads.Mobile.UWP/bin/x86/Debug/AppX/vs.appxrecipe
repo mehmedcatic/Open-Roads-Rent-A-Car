@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=73892162-cdad-4a07-b0ca-bd686f62d18d</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>164576E0454211D5B532FFB60132B09F20023FDB9EDF73A14E05F8C5C2101E56</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>fb5047a5-1b42-4598-b435-2b424fd525e1_1.0.0.0_x86__geht5dptxymyy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>fb5047a5-1b42-4598-b435-2b424fd525e1_geht5dptxymyy!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-20T15:07:29.472</Modified>
+      <Modified>2021-03-20T22:57:31.473</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\OpenRoads.Mobile.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\OpenRoads.Mobile.UWP.exe">
       <PackagePath>entrypoint\OpenRoads.Mobile.UWP.exe</PackagePath>
-      <Modified>2021-03-20T15:07:19.087</Modified>
+      <Modified>2021-03-20T22:57:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mehmed\.nuget\packages\flurl\3.0.1\lib\netstandard2.0\Flurl.dll">
       <PackagePath>Flurl.dll</PackagePath>
@@ -754,13 +754,13 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2020-03-24T21:31:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile\bin\Debug\netstandard2.0\OpenRoads.Mobile.dll">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile\bin\Debug\netstandard2.0\OpenRoads.Mobile.dll">
       <PackagePath>OpenRoads.Mobile.dll</PackagePath>
-      <Modified>2021-03-20T15:17:24.897</Modified>
+      <Modified>2021-03-20T22:57:12.714</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile\bin\Debug\netstandard2.0\OpenRoads.Model.dll">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile\bin\Debug\netstandard2.0\OpenRoads.Model.dll">
       <PackagePath>OpenRoads.Model.dll</PackagePath>
-      <Modified>2021-03-20T00:57:36.921</Modified>
+      <Modified>2021-03-20T22:57:09.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mehmed\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -774,184 +774,184 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-03-24T21:31:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\add.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\add.png">
       <PackagePath>add.png</PackagePath>
       <Modified>2021-03-20T13:43:51.866</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.278</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.283</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.288</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\myLOGO.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\myLOGO.png">
       <PackagePath>Assets\myLOGO.png</PackagePath>
       <Modified>2021-03-20T13:42:27.803</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\myLOGO1.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\myLOGO1.png">
       <PackagePath>Assets\myLOGO1.png</PackagePath>
       <Modified>2021-03-20T13:42:27.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.290</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.331</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.343</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.346</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.369</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.379</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.390</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.733</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.741</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-20T12:50:51.743</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\cancel.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\cancel.png">
       <PackagePath>cancel.png</PackagePath>
       <Modified>2021-03-20T13:43:51.867</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\save.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\save.png">
       <PackagePath>save.png</PackagePath>
       <Modified>2021-03-20T13:43:51.872</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
       <Modified>2021-03-20T13:43:51.864</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\road.jpg">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Assets\road.jpg">
       <PackagePath>Assets\road.jpg</PackagePath>
       <Modified>2021-03-20T13:42:27.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2021-03-20T12:50:51.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\OpenRoads.Mobile.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\OpenRoads.Mobile.UWP.xr.xml">
       <PackagePath>OpenRoads.Mobile.UWP.xr.xml</PackagePath>
       <Modified>2021-03-20T15:07:18.842</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-20T15:07:18.893</Modified>
+      <Modified>2021-03-20T22:57:23.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-20T15:07:18.893</Modified>
+      <Modified>2021-03-20T22:57:23.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -965,13 +965,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2019-12-12T01:48:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2021-03-20T15:07:24.286</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\OpenRoads\OpenRoads\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\Core\OpenRoads.Mobile.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Mehmed\Desktop\GitHub\Open-Roads-Rent-A-Car\OpenRoads.Mobile\OpenRoads.Mobile.UWP\bin\x86\Debug\Core\OpenRoads.Mobile.UWP.exe">
       <PackagePath>OpenRoads.Mobile.UWP.exe</PackagePath>
-      <Modified>2021-03-20T15:07:29.402</Modified>
+      <Modified>2021-03-20T22:57:31.461</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
